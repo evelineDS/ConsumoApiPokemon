@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    text-align: center;
+    background: blanchedalmond;
+    font-family: 'Open Sans', serif;
+}
+
+#conteudo{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div.card{
+    width: 180px;
+    border-radius: 10px;
+    border-color: lightgreen;
+    background-color:lightskyblue;
+    border-style:solid;
+    box-shadow:8px 8px 5px green;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
